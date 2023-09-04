@@ -1,7 +1,7 @@
 # Key vault access for the current client principal
 resource "azurerm_key_vault_access_policy" "principal" {
   key_vault_id = azurerm_key_vault.current.id
-
+# Key vault access for the current client principal
   tenant_id = data.azurerm_client_config.current.tenant_id
   object_id = data.azurerm_client_config.current.object_id
 
