@@ -6,6 +6,7 @@ variable "redirect_domain" {
 
 variable "redirect_url" {
   description = "The URL this domain redirect should send clients to; e.g. `\"https://readthedocs.org/projects/example\"`"
+//test data
 }
 
 variable "name_prefix" {
