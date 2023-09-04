@@ -1,6 +1,7 @@
 variable "redirect_domain" {
   description = "Domain which will redirect to the given `redirect_url`; e.g. `\"docs.example.com\"`"
 //test data
+//test data
 }
 
 variable "redirect_url" {
