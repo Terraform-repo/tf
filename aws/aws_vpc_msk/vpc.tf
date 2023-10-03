@@ -5,6 +5,7 @@ resource "aws_vpc" "msk_vpc" {
     map(
       "Name", "msk-${lower(var.environment)}-vpc",
       "Description", "VPC for creating MSK resources",
+#"Name", "msk-${lower(var.environment)}-vpc"
     )
   )
 }
